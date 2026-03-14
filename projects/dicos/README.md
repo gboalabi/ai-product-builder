@@ -66,14 +66,16 @@ Major architectural components are already implemented, with remaining work focu
 
 # Documentation
 
-Additional architecture documentation is available in this repository:
+Architecture documentation for this system:
 
-* system architecture
-* repository structure
-* product capabilities
-* development workflow
-* implementation status
-* project completion estimate
+- [Project Overview](PROJECT_OVERVIEW.md)
+- [External Architecture Overview](ARCHITECTURE_OVERVIEW_FOR_EXTERNALS.md)
+- [System Architecture](SYSTEM_ARCHITECTURE.md)
+- [Repository Structure](REPO_STRUCTURE.md)
+- [Product Capabilities](PRODUCT_CAPABILITIES.md)
+- [Development Workflow](DEVELOPMENT_WORKFLOW.md)
+- [Implementation Status](IMPLEMENTATION_STATUS.md)
+- [Project Completion Estimate](PROJECT_COMPLETION_ESTIMATE.md)
 
 ---
 
