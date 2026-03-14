@@ -16,6 +16,31 @@ Instead of relying on generic AI prompts, DICOS introduces structured **Domain I
 
 # Core System Components
 
+## System Architecture Diagram
+
+```mermaid
+flowchart TD
+
+User[User / Organization]
+
+User --> WebApp[Web SaaS Application]
+
+WebApp --> API[API Layer]
+
+API --> Queue[Task Queue]
+
+Queue --> Workers[Worker Processing Engine]
+
+Workers --> AIModels[AI Models / Generation Engine]
+
+Workers --> Validation[Compliance & Validation Layer]
+
+Workers --> Database[(Relational Database)]
+
+Workers --> Storage[(Object Storage)]
+
+Workers --> Analytics[Run Tracking & Analytics]
+
 The platform architecture consists of several layers:
 
 ### SaaS Frontend
