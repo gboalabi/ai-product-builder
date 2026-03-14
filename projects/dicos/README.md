@@ -2,7 +2,7 @@
 
 DICOS is a multi-tenant SaaS platform designed for generating **domain-aware, policy-constrained content across multiple channels**.
 
-The system is designed to support structured content generation workflows that combine domain knowledge, AI orchestration pipelines, and compliance validation layers.
+The system supports structured content generation workflows that combine domain knowledge, AI orchestration pipelines, and compliance validation layers.
 
 ---
 
@@ -16,26 +16,39 @@ Instead of relying on generic AI prompts, DICOS introduces structured **Domain I
 
 # Core System Components
 
-## System Architecture Diagram
+## System Architecture (Simplified)
 
-```mermaid
-flowchart TD
-    User[User / Organization] --> WebApp[Web SaaS Application]
-    WebApp --> API[API Layer]
-    API --> Queue[Task Queue]
-    Queue --> Workers[Worker Processing Engine]
-    Workers --> AIModels[AI Models / Generation Engine]
-    Workers --> Validation[Compliance & Validation Layer]
-    Workers --> Database[(Relational Database)]
-    Workers --> Storage[(Object Storage)]
-    Workers --> Analytics[Run Tracking & Analytics]
+```
+User / Organization
+        │
+        ▼
+Web SaaS Application (Frontend)
+        │
+        ▼
+API Layer (Application Services)
+        │
+        ▼
+Task Queue
+        │
+        ▼
+Worker Processing Engine
+        │
+ ┌──────┼───────────────┐
+ ▼      ▼               ▼
+AI Models   Compliance Layer   Run Tracking
+        │
+        ▼
+Data Storage
+(PostgreSQL + Object Storage)
 ```
 
-The platform architecture consists of several layers:
+---
+
+# Platform Layers
 
 ### SaaS Frontend
 
-User-facing interface built for managing workspaces, generation runs, and domain configurations.
+User-facing interface used for managing workspaces, generation runs, and domain configurations.
 
 ### API Layer
 
@@ -47,11 +60,11 @@ Processes generation tasks asynchronously using queue-based workers.
 
 ### Domain Intelligence Packs (DIPs)
 
-Structured domain knowledge used to guide AI generation workflows.
+Structured domain knowledge modules used to guide AI generation workflows.
 
 ### Compliance and Validation Layer
 
-Ensures generated content meets domain-specific policy constraints.
+Ensures generated content meets domain-specific policy and governance constraints.
 
 ---
 
@@ -75,7 +88,7 @@ Based on internal engineering documentation, the system is estimated to be appro
 
 **~74% complete**
 
-Major architectural components are already implemented, with remaining work focused on product surface expansion and production hardening.
+Major architectural components are implemented, with remaining work focused on product surface expansion and production hardening.
 
 ---
 
