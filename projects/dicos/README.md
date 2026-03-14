@@ -20,26 +20,16 @@ Instead of relying on generic AI prompts, DICOS introduces structured **Domain I
 
 ```mermaid
 flowchart TD
-
-User[User / Organization]
-
-User --> WebApp[Web SaaS Application]
-
-WebApp --> API[API Layer]
-
-API --> Queue[Task Queue]
-
-Queue --> Workers[Worker Processing Engine]
-
-Workers --> AIModels[AI Models / Generation Engine]
-
-Workers --> Validation[Compliance & Validation Layer]
-
-Workers --> Database[(Relational Database)]
-
-Workers --> Storage[(Object Storage)]
-
-Workers --> Analytics[Run Tracking & Analytics]
+    User[User / Organization] --> WebApp[Web SaaS Application]
+    WebApp --> API[API Layer]
+    API --> Queue[Task Queue]
+    Queue --> Workers[Worker Processing Engine]
+    Workers --> AIModels[AI Models / Generation Engine]
+    Workers --> Validation[Compliance & Validation Layer]
+    Workers --> Database[(Relational Database)]
+    Workers --> Storage[(Object Storage)]
+    Workers --> Analytics[Run Tracking & Analytics]
+```
 
 The platform architecture consists of several layers:
 
@@ -93,14 +83,14 @@ Major architectural components are already implemented, with remaining work focu
 
 Architecture documentation for this system:
 
-- [Project Overview](PROJECT_OVERVIEW.md)
-- [External Architecture Overview](ARCHITECTURE_OVERVIEW_FOR_EXTERNALS.md)
-- [System Architecture](SYSTEM_ARCHITECTURE.md)
-- [Repository Structure](REPO_STRUCTURE.md)
-- [Product Capabilities](PRODUCT_CAPABILITIES.md)
-- [Development Workflow](DEVELOPMENT_WORKFLOW.md)
-- [Implementation Status](IMPLEMENTATION_STATUS.md)
-- [Project Completion Estimate](PROJECT_COMPLETION_ESTIMATE.md)
+* [Project Overview](PROJECT_OVERVIEW.md)
+* [External Architecture Overview](ARCHITECTURE_OVERVIEW_FOR_EXTERNALS.md)
+* [System Architecture](SYSTEM_ARCHITECTURE.md)
+* [Repository Structure](REPO_STRUCTURE.md)
+* [Product Capabilities](PRODUCT_CAPABILITIES.md)
+* [Development Workflow](DEVELOPMENT_WORKFLOW.md)
+* [Implementation Status](IMPLEMENTATION_STATUS.md)
+* [Project Completion Estimate](PROJECT_COMPLETION_ESTIMATE.md)
 
 ---
 
