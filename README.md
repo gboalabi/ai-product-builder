@@ -36,6 +36,10 @@ A multi-tenant SaaS platform for generating **domain-aware, policy-constrained c
 * asynchronous worker processing
 * generation run tracking and analytics
 
+**Architecture documentation**
+
+https://github.com/gboalabi/ai-product-builder/tree/main/projects/dicos
+
 ---
 
 ## 2. IKIRA AI Studio
@@ -49,6 +53,10 @@ An AI creation platform designed to support **multi-model content generation pip
 * modular AI tool integrations
 * model routing systems
 * AI-assisted creative workflows
+
+**Architecture documentation**
+
+https://github.com/gboalabi/ai-product-builder/tree/main/projects/ikira-ai-studio
 
 ---
 
@@ -64,6 +72,10 @@ A platform for building **domain-specific AI knowledge systems** that allow orga
 * AI-driven Q&A systems
 * enterprise knowledge workflows
 
+**Architecture documentation**
+
+https://github.com/gboalabi/ai-product-builder/tree/main/projects/ai-knowledge-hub
+
 ---
 
 ## 4. Viral Waves
@@ -78,6 +90,10 @@ A signal intelligence platform designed to identify, score, and monitor **emergi
 * campaign planning intelligence
 * structured signal monitoring workflows
 
+**Status**
+
+Architecture documentation coming soon.
+
 ---
 
 ## 5. Affiliate Assistant
@@ -91,6 +107,10 @@ A commerce intelligence platform focused on **AI-assisted monetization workflows
 * AI decision routing
 * event-driven monetization workflows
 * scalable commerce intelligence systems
+
+**Status**
+
+Architecture documentation coming soon.
 
 ---
 
@@ -118,4 +138,5 @@ The goal is to build **AI platforms that can operate reliably in real-world envi
 
 # Contact
 
-GitHub: https://github.com/gboalabi
+GitHub:
+https://github.com/gboalabi
