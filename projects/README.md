@@ -1,15 +1,14 @@
-# Projects
+# AI Systems Portfolio
 
-This folder contains architecture summaries and documentation for AI systems I am currently building.
+This section contains architecture documentation and project summaries for AI systems I am currently building.
 
 Each project includes:
 
 * project overview
-* architecture explanation
-* capabilities
+* system architecture
+* product capabilities
 * implementation maturity
 * development workflow
-* completion status
 
 ---
 
@@ -17,37 +16,35 @@ Each project includes:
 
 ## DICOS — Domain Intelligence Content Operating System
 
-A multi-tenant SaaS platform for generating domain-aware, policy-constrained content across multiple channels.
+A multi-tenant SaaS platform designed for generating domain-aware, policy-constrained content across multiple channels.
 
-Documentation available in:
+Architecture documentation:
 
-```
-projects/dicos/
-```
+https://github.com/gboalabi/ai-product-builder/tree/main/projects/dicos
 
 ---
 
 ## IKIRA AI Studio
 
-An AI creation platform designed to support multi-model content generation pipelines.
+An AI creation platform designed to support multi-model generation pipelines.
 
-Documentation coming soon.
+Status: architecture documentation coming soon.
 
 ---
 
 ## AI Knowledge Hub
 
-A platform for building domain-specific AI knowledge systems for organizations.
+A platform for building domain-specific AI knowledge systems.
 
-Documentation coming soon.
+Status: architecture documentation coming soon.
 
 ---
 
 ## Viral Waves
 
-A signal intelligence system for identifying and monitoring emerging digital trends.
+A signal intelligence system designed to detect and track emerging digital trends.
 
-Documentation coming soon.
+Status: architecture documentation coming soon.
 
 ---
 
@@ -55,4 +52,4 @@ Documentation coming soon.
 
 A commerce intelligence platform focused on AI-assisted monetization workflows.
 
-Documentation coming soon.
+Status: architecture documentation coming soon.
