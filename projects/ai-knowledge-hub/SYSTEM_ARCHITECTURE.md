@@ -23,39 +23,50 @@ Primary components:
 
 # High-Level System Architecture
 
-User / Admin
-    │
-    ▼
-React Frontend (Admin UI + Ask Hub)
-    │
-    ▼
-Express API Layer
-  ├ Query API
-  ├ Ingestion API
-  ├ Retrieval API
-  └ Admin APIs
-    │
-    ▼
-Core AI Services
-  ├ Ingestion Service
-  ├ Chunking Service
-  ├ Retrieval Engine
-  ├ Prompt Orchestrator
-  └ Citation Builder
-    │
-    ▼
-Persistence Layer
-  ├ PostgreSQL (documents, tenants, jobs)
-  └ pgvector (semantic chunk embeddings)
-    │
-    ▼
-Background Worker
-  └ Embedding generation + chunk backfill
-    │
-    ▼
-Gemini AI Provider
-  ├ Embeddings
-  └ Answer generation
+```text
+                   ┌─────────────────────┐
+                   │      User/Admin      │
+                   └──────────┬──────────┘
+                              │
+                              ▼
+                ┌─────────────────────────┐
+                │     React Frontend      │
+                │  (Admin UI + Ask Hub)   │
+                └──────────┬──────────────┘
+                           │
+                           ▼
+                ┌─────────────────────────┐
+                │      Express API        │
+                │  Query / Ingest / Admin │
+                └──────────┬──────────────┘
+                           │
+                           ▼
+                ┌─────────────────────────┐
+                │      Core Services      │
+                │ Ingestion / Retrieval   │
+                │ Prompt / Citations      │
+                └──────────┬──────────────┘
+                           │
+                ┌──────────┴──────────┐
+                │                     │
+                ▼                     ▼
+      ┌─────────────────┐   ┌─────────────────┐
+      │   PostgreSQL    │   │   pgvector DB   │
+      │  Documents/Jobs │   │  Chunk Vectors  │
+      └─────────┬───────┘   └─────────┬───────┘
+                │                     │
+                └──────────┬──────────┘
+                           ▼
+                ┌─────────────────────────┐
+                │    Background Worker    │
+                │  Embedding + Chunk Jobs │
+                └──────────┬──────────────┘
+                           ▼
+                ┌─────────────────────────┐
+                │     Gemini Provider     │
+                │  Generation + Embedding │
+                └─────────────────────────┘
+```
 
 ---
 
