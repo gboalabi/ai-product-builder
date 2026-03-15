@@ -26,9 +26,11 @@ https://github.com/gboalabi/ai-product-builder/tree/main/projects/dicos
 
 ## IKIRA AI Studio
 
-An AI creation platform designed to support multi-model generation pipelines.
+An AI creation platform designed to support multi-model generation pipelines and creative workflow orchestration.
 
-Status: architecture documentation coming soon.
+Architecture documentation:
+
+https://github.com/gboalabi/ai-product-builder/tree/main/projects/ikira-ai-studio
 
 ---
 
