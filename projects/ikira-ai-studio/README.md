@@ -61,15 +61,15 @@ Core image-generation workflows and asset management systems are fully implement
 
 # Documentation
 
-Detailed architecture documentation for this system is available in this folder:
+Detailed architecture documentation for this system:
 
-* Architecture Overview
-* System Architecture
-* Product Capabilities
-* Implementation Status
-* Development Workflow
-* Repository Structure
-* Project Completion Estimate
+• [Architecture Overview](ARCHITECTURE_OVERVIEW_FOR_EXTERNAL.md)  
+• [System Architecture](SYSTEM_ARCHITECTURE.md)  
+• [Product Capabilities](PRODUCT_CAPABILITIES.md)  
+• [Implementation Status](IMPLEMENTATION_STATUS.md)  
+• [Development Workflow](DEVELOPMENT_WORKFLOW.md)  
+• [Repository Structure](REPO_STRUCTURE.md)  
+• [Project Completion Estimate](PROJECT_COMPLETION_ESTIMATE.md)
 
 ---
 
