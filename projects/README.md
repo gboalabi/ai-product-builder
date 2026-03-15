@@ -36,9 +36,11 @@ https://github.com/gboalabi/ai-product-builder/tree/main/projects/ikira-ai-studi
 
 ## AI Knowledge Hub
 
-A platform for building domain-specific AI knowledge systems.
+A multi-tenant AI knowledge platform that ingests organizational content, indexes it for semantic retrieval, and generates grounded answers with citations.
 
-Status: architecture documentation coming soon.
+Architecture documentation:
+
+https://github.com/gboalabi/ai-product-builder/tree/main/projects/ai-knowledge-hub
 
 ---
 
