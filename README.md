@@ -8,6 +8,8 @@ This repository showcases AI systems, platforms, and tools I am building to demo
 
 My focus is designing **production-grade AI platforms**, not just experiments.
 
+The systems in this portfolio are documented through **code-first architecture audits**, where repository implementations are analyzed and converted into system-level architecture documentation.
+
 ---
 
 # Focus Areas
@@ -80,37 +82,37 @@ https://github.com/gboalabi/ai-product-builder/tree/main/projects/ai-knowledge-h
 
 ## 4. Viral Waves
 
-A signal intelligence platform designed to identify, score, and monitor **emerging digital trends**.
+A trend intelligence platform designed to detect **early social momentum signals** and convert them into actionable campaign strategies.
 
 **Focus areas**
 
-* trend signal detection
-* deterministic scoring models
-* rank tracking and acceleration analysis
-* campaign planning intelligence
-* structured signal monitoring workflows
+* trend signal ingestion and scoring pipelines
+* velocity and acceleration analysis
+* AI-assisted creative strategy generation
+* campaign planning workflows
+* alert-based signal monitoring
 
-**Status**
+**Architecture documentation**
 
-Architecture documentation coming soon.
+https://github.com/gboalabi/ai-product-builder/tree/main/projects/viral-waves
 
 ---
 
 ## 5. Affiliate Assistant
 
-A commerce intelligence platform focused on **AI-assisted monetization workflows**.
+A creator-commerce platform focused on **AI-assisted monetization and affiliate infrastructure**.
 
 **Focus areas**
 
-* affiliate commerce infrastructure
-* creator storefront logic
-* AI decision routing
-* event-driven monetization workflows
-* scalable commerce intelligence systems
+* creator storefront architecture
+* affiliate offer aggregation
+* AI-assisted product discovery
+* campaign optimization workflows
+* event-driven monetization systems
 
-**Status**
+**Architecture documentation**
 
-Architecture documentation coming soon.
+https://github.com/gboalabi/ai-product-builder/tree/main/projects/affiliate-assistant
 
 ---
 
